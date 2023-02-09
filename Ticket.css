@@ -1,0 +1,86 @@
+@font-face{
+				font-family: Aarav;
+				src: url('Nunito_Font/static/Nunito-SemiBold.ttf');
+				}
+				body{
+				font-family: Aarav;
+				margin:0px;
+				background-image: linear-gradient(to right,#063970,#2692b6,#87bfcc);
+				}
+				#parent #aside img{
+				height:6em;
+				width:6em;
+				border-radius: 50%;
+				}
+				#parent #aside h4{
+				line-height: 2em;
+				display: inline-flex;
+				justify-content: space-around;
+				}
+				#parent{
+				width:100%;
+				display: inline-flex;
+				justify-content: space-between;
+				box-sizing: border-box;
+				box-shadow: 5px 5px 5px darkgray, -5px -5px 5px darkgray;
+				}
+				#aside{
+				width:30%;
+				box-sizing: border-box;
+				padding:2em;
+				display: flex;
+				flex-direction: column;
+				background-color:#063970 ;
+				border-right: 5px outset #99b3ff;;
+				}
+				#form{
+				margin-block-end: 0em;
+				width:70%;
+				box-sizing: border-box;
+				padding:2em 2em 2em 4em;
+				background-image: linear-gradient(to right,#063970,#2692b6,#87bfcc);
+				display: flex;
+				flex-direction: column;
+				justify-content: space-between;
+				}
+				#form label input{
+				padding:0.3em;
+				}
+				a{
+				text-decoration: none;
+				color:black;
+				}
+				#aside a:hover, #aside div a:hover{
+				background-color: #99b3ff;
+				padding:0.3em 2em;
+				border-radius: 3px;
+				}
+				#choosed{
+				background-color: #99b3ff;
+				padding:0.3em 2em;
+				border-radius: 3px;
+				}
+				#btn{
+				padding:3em 2em 2em 2em;
+				display: inline-flex;
+				justify-content: space-around;
+				}
+				#btn input{
+				padding:0.5em 1em;
+				border-radius: 0.8em;
+				background-color: #90A4AE;
+				cursor: pointer;
+				border:none;
+				box-shadow: 5px 5px 5px #90A4AE, -5px -5px 5px #90A4AE;
+				}
+				footer{
+				display: flex;
+				justify-content: right;
+				background-image: linear-gradient(to right,#2692b6,#87bfcc,#063970);
+				padding-right: 1em;
+				}
+				@media print{
+				footer{
+				margin-top: 110px;
+				}
+				}
